@@ -1,0 +1,550 @@
+#user_area{
+    padding: 8rem 0 7rem 0;
+    position: relative;
+    background: #EDF2F6;
+}
+#user_area .chevron_{
+    width: 3.3rem;
+    height: 3.3rem;
+    background: #40B3A2;
+    position: absolute;
+    color: #fff;
+    left: .0rem;
+    text-align: center;
+    top: 3.4rem;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    z-index: 200;
+}
+#user_area .chevron_ i{
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #fff;
+}
+#user_area .user_online_header{
+    position: relative;
+}
+#user_area .user_online_header .user_info_wrapper img{
+    width: 1.7rem;
+}
+#user_area .user_online_header .user_info_wrapper{
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 35;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: .1rem .2rem .3rem;
+    border-radius: 1rem;
+    top: 9.9rem;
+    left: 3rem;
+}
+#user_area .user_online_header .user_info_wrapper .pr-3{
+    position: relative;
+}
+#user_area .user_online_header .user_info_wrapper .pr-3 span{
+    position: absolute;
+    left: .4rem;
+    color: #fff;
+    top: .1rem;
+}
+#user_area .users__{
+    margin: 2rem 0;
+    overflow: hidden;
+    padding: 4rem 1rem !important;
+}
+#user_area .wrap_users .users__ .users_text .user-header-text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 3.6rem;
+    margin-left: -2.5rem;
+}
+
+#user_area .wrap_users .users__ .img-area .combine_img{
+    position: relative;
+}
+#user_area .wrap_users .users__ .img-area .users_img{
+    width:10rem;
+    height: 10rem;
+}
+#user_area .wrap_users .users__ .img-area .active_{
+    position: absolute;
+    left: 1.1rem;
+    top: 2.5rem;
+    width: 1.4rem;
+    cursor: pointer;
+}
+
+/* user activity info */
+#user_area .wrap_users .users__ .user_info_wrapper{
+    border: 1px solid red;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+#user_area .wrap_users .users__ .users_text .users_qqq{
+    margin-left: -3.5rem;
+}
+#user_area .wrap_users .users__ .users_text .users_qqq p,
+#user_area .wrap_users .users__ .users_text .users_mail
+{
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline;
+    margin: 0 .8rem;
+}
+#user_area .wrap_users .users__ .users_text .users_mail{
+    margin-left: -2.5rem;
+    font-weight: 600;
+}
+#user_area .wrap_users .users__  .left_info{
+    width:70%;
+    float:left;
+    margin-top: 2rem;
+}
+#user_area .wrap_users .users__  .left_info a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #0c65ac;
+    font-weight: 500;
+}
+#user_area .wrap_users .users__  .left_info img{
+    width:1.3rem;
+}
+#user_area .wrap_users .users__ .qr-code-part{
+    width: 29%;
+    float: left;
+}
+#user_area .wrap_users .users__ .qr-code-part .firs_qr,
+#user_area .wrap_users .users__ .qr-code-part .second-qr{
+    width: 44%;
+    float: left;
+    text-align: center;
+    background: #EDF2F6;
+    margin: 0 0.3rem;
+    padding-top: .8rem;
+}
+#user_area .wrap_users .users__ .qr-code-part img{
+    width: 2.8rem;
+}
+#user_area .wrap_users .users__ .qr-code-part span{
+    font-size: .6rem;
+    display: inline-block;
+    line-height: 1rem;
+    margin-top: 1rem;
+    color: #2E2C34;
+}
+
+#user_area .wrap_users .btn-load-more{
+    background: #40B3A2;
+    color: #fff;
+    padding: 1.3rem 6.4rem;
+    border-radius: 3.4rem;
+    margin-top: 3.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#user_area .wrap_users .img-area .dott{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    border-radius: 50%;
+    left: 3.4rem;
+    top: 2.2rem;
+    background: rgb(21, 195, 154);
+}
+@media (max-width:576px){
+    #user_area .wrap_users .users__{
+        text-align: center;
+    }
+    #user_area .wrap_users .users__ .img-area{
+        text-align: center;
+    }
+    #user_area .wrap_users .users__ .users_text .user-header-text{
+        text-align: center;
+        margin-left: 0;
+    }
+    #user_area .wrap_users .users__ .users_text .users_qqq{
+        margin-left: 0;
+        text-align: center;
+    }
+    #user_area .wrap_users .users__ .users_text .users_mail{
+        margin-left: 0;
+    }
+    
+   
+}
+@media (max-width:445px){
+    html{
+        font-size: 47%;
+    }
+    #user_area .wrap_users .users__ .left_info{
+        width:100%;
+        float:none;
+        margin: 1.4rem 0 !important;
+    }
+    #user_area .wrap_users .users__ .qr-code-part{
+        width:100%;
+        float: none;
+        padding-bottom: 9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user2.png" alt="user2" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user3.png" alt="user3" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user4.png" alt="user4" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user5.png" alt="user5" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                         <div class="user-info">
+                             <div class="left_info">
+                              <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                              <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                              <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                             </div>
+                             <div class="qr-code-part">
+                               <div class="firs_qr">
+                                 <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                                 <span>WebOffice QR
+                               </span>
+                               </div>
+                               <div class="second-qr">
+                                 <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                                 <span>WebOffice QR
+                               </div>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user6.png" alt="user6" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user7.png" alt="user7" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user8.png" alt="user8" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="users__ bg-white p-3 shadow">
+                          <div class="row">
+                           <div class="col-sm-4 img-area">
+                              <div class="combine_img"><img src="./resources/img/active.png" alt="active" class="active_"><img src="./resources/img/user9.png" alt="user9" class="img-fluid users_img"></div>
+                           </div>
+                           <div class="col-sm-8">
+                              <div class="users_text">
+                                 <h2 class="user-header-text">大连协同天下电子商务科技有限公司
+                                 </h2>
+                                 <div class="row">
+                                    <div class="col-12 users_qqq">
+                                       <p>qqq</p>
+                                       <p>开发部</p>
+                                       <p>qq</p>
+                                    </div>
+                                 </div>
+                                 <p class="users_mail">Email: jnpsiok@gmail.com
+                                 </p>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="user-info">
+                           <div class="left_info">
+                            <a href="#"><img src="./resources/img/id-card 2.png" alt="id-card" class="img-fluid users_link">&nbsp;Visit|</a>
+                            <a href="#"><img src="./resources/img/email (1) 11.png" alt="email" class="img-fluid users_link">&nbsp;Leave Multimedia Message |</a>
+                            <a href="#"><img src="./resources/img/star 2.png" alt="start" class="img-fluid users_link">&nbsp;Favorite |</a>
+                           </div>
+                           <div class="qr-code-part">
+                             <div class="firs_qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </span>
+                             </div>
+                             <div class="second-qr">
+                               <img src="./resources/img/qr-code 10.png" alt="qr-code">
+                               <span>WebOffice QR
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                     </div>
